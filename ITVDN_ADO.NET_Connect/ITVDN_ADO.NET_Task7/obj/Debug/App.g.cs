@@ -61,6 +61,8 @@ namespace ITVDN_ADO.NET_Task7 {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
+            SplashScreen splashScreen = new SplashScreen("splash.jpg");
+            splashScreen.Show(true);
             ITVDN_ADO.NET_Task7.App app = new ITVDN_ADO.NET_Task7.App();
             app.InitializeComponent();
             app.Run();
