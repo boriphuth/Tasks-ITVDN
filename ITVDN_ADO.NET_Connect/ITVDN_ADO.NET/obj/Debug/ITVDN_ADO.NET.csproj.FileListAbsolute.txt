@@ -1,0 +1,6 @@
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET\bin\Debug\ITVDN_ADO.NET.exe.config
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET\bin\Debug\ITVDN_ADO.NET.exe
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET\bin\Debug\ITVDN_ADO.NET.pdb
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET\obj\Debug\ITVDN_ADO.NET.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET\obj\Debug\ITVDN_ADO.NET.exe
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET\obj\Debug\ITVDN_ADO.NET.pdb

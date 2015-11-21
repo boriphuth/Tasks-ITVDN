@@ -1,0 +1,14 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\bin\Debug\ITVDN_ADO.NET_Task7.exe.config
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\bin\Debug\ITVDN_ADO.NET_Task7.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\bin\Debug\ITVDN_ADO.NET_Task7.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\MainWindow.g.cs
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\App.g.cs
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7_MarkupCompile.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7_MarkupCompile.lref
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\MainWindow.baml
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7.g.resources
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7.Properties.Resources.resources
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7.csproj.GenerateResource.Cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_ADO.NET_Connect\ITVDN_ADO.NET_Task7\obj\Debug\ITVDN_ADO.NET_Task7.pdb
