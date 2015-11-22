@@ -1,0 +1,13 @@
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\bin\Debug\ITVDN_ADO.NET_Task8.exe.config
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\bin\Debug\ITVDN_ADO.NET_Task8.exe
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\bin\Debug\ITVDN_ADO.NET_Task8.pdb
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\MainWindow.g.cs
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\App.g.cs
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\ITVDN_ADO.NET_Task8_MarkupCompile.cache
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\ITVDN_ADO.NET_Task8_MarkupCompile.lref
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\MainWindow.baml
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\ITVDN_ADO.NET_Task8.g.resources
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\ITVDN_ADO.NET_Task8.Properties.Resources.resources
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\ITVDN_ADO.NET_Task8.csproj.GenerateResource.Cache
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\ITVDN_ADO.NET_Task8.exe
+c:\users\вадим\documents\visual studio 2015\Projects\ITVDN_ADO.NET_Task8\ITVDN_ADO.NET_Task8\obj\Debug\ITVDN_ADO.NET_Task8.pdb
