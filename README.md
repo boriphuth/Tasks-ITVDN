@@ -26,8 +26,9 @@ DataGridView. Используйте пизированный DataSet
 DataGridView. 
 
 Обновление данных 
-Задание  
-Создайте приложение по шаблону Windows Forms Application. Создайте DataSet для базы данных ShopDB. Создайте объект DataAdapter, позволяющий передавать отложенные изменения в базу данных ShopDB. Для этого пользуйтесь объектом SqlCommandBuilder. Продемонстрируйте работу программы. 
+Задание 2  
+Создайте объект DataAdapter, в котором инициализируйте свойства InsertCommand, DeleteCommand, UpdateCommand для передачи обновлений в таблицу Employees базы данных ShopDB. Продемонстрируйте работу приложения. Для реализации примера можно создавать приложение как по шаблону Windows Forms Application, так и по шаблону Console Application. 
+
 
 
 При решении использовал WPF вместо WinForms
