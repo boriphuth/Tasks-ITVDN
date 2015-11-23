@@ -1,0 +1,13 @@
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\bin\Debug\Async_Sort.exe.config
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\MainWindow.g.cs
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\App.g.cs
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\Async_Sort_MarkupCompile.cache
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\Async_Sort_MarkupCompile.lref
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\bin\Debug\Async_Sort.exe
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\bin\Debug\Async_Sort.pdb
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\MainWindow.baml
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\Async_Sort.g.resources
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\Async_Sort.Properties.Resources.resources
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\Async_Sort.csproj.GenerateResource.Cache
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\Async_Sort.exe
+c:\users\вадим\documents\visual studio 2015\Projects\Async_Sort\Async_Sort\obj\Debug\Async_Sort.pdb
