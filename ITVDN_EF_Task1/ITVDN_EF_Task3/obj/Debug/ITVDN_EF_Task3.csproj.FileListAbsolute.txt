@@ -1,0 +1,9 @@
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\bin\Debug\ITVDN_EF_Task3.exe.config
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\bin\Debug\ITVDN_EF_Task3.exe
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\bin\Debug\ITVDN_EF_Task3.pdb
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\bin\Debug\EntityFramework.dll
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\bin\Debug\EntityFramework.xml
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\obj\Debug\ITVDN_EF_Task3.exe
+C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task3\obj\Debug\ITVDN_EF_Task3.pdb
