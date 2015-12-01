@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN_EF6_Task3,4_FluentAPI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN_EF6_Task5", "ITVDN_EF6_Task5\ITVDN_EF6_Task5.csproj", "{CD3B4257-ED57-490A-8D09-53647CE5533E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN_EF6_Task5_Part2", "ITVDN_EF6_Task5_Part2\ITVDN_EF6_Task5_Part2.csproj", "{32C17C83-C880-4FBE-A022-8DA902786032}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CD3B4257-ED57-490A-8D09-53647CE5533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3B4257-ED57-490A-8D09-53647CE5533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3B4257-ED57-490A-8D09-53647CE5533E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C17C83-C880-4FBE-A022-8DA902786032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C17C83-C880-4FBE-A022-8DA902786032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C17C83-C880-4FBE-A022-8DA902786032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C17C83-C880-4FBE-A022-8DA902786032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,7 +26,6 @@ C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_
 C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task1\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task1\bin\Debug\EntityFramework.xml
 C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task1\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task1\obj\Debug\ITVDN_EF_Task1.csprojResolveAssemblyReference.cache
 C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task1\obj\Debug\MainWindow.g.cs
 C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task1\obj\Debug\App.g.cs
 C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task1\obj\Debug\ITVDN_EF_Task1_Content.g.cs
