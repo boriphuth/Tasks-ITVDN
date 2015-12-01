@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN_EF_Task3,4_DataAnnota
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN_EF6_Task3,4_FluentAPI", "ITVDN_EF6_Task3\ITVDN_EF6_Task3,4_FluentAPI.csproj", "{24AF2592-1365-4950-B8E7-23E4692D520A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITVDN_EF6_Task5", "ITVDN_EF6_Task5\ITVDN_EF6_Task5.csproj", "{CD3B4257-ED57-490A-8D09-53647CE5533E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{24AF2592-1365-4950-B8E7-23E4692D520A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24AF2592-1365-4950-B8E7-23E4692D520A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24AF2592-1365-4950-B8E7-23E4692D520A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3B4257-ED57-490A-8D09-53647CE5533E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3B4257-ED57-490A-8D09-53647CE5533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3B4257-ED57-490A-8D09-53647CE5533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3B4257-ED57-490A-8D09-53647CE5533E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

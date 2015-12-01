@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EF6_Task3DB.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Configuration\PersonConfig.cs" />
     <Compile Include="Product.cs" />

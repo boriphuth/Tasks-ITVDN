@@ -8,3 +8,13 @@ C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_E
 C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task2\obj\Debug\ITVDN_EF_Task2.exe
 C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task2\obj\Debug\ITVDN_EF_Task2.pdb
 C:\Users\Вадим\documents\visual studio 2015\Projects\ITVDN_EF_Task1\ITVDN_EF_Task2\obj\Debug\ITVDN_EF_Task2.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\bin\Debug\ITVDN_EF_Task2.exe.config
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\bin\Debug\ITVDN_EF_Task2.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\bin\Debug\ITVDN_EF_Task2.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\bin\Debug\EntityFramework.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\bin\Debug\EntityFramework.xml
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\obj\Debug\ITVDN_EF_Task2.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\obj\Debug\ITVDN_EF_Task2.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\ITVDN_EF6_Tasks\ITVDN_EF_Task2\obj\Debug\ITVDN_EF_Task2.pdb
