@@ -1,0 +1,6 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\Pattern_Decorator\Pattern_Decorator\bin\Debug\Pattern_Decorator.exe.config
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\Pattern_Decorator\Pattern_Decorator\bin\Debug\Pattern_Decorator.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\Pattern_Decorator\Pattern_Decorator\bin\Debug\Pattern_Decorator.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\Pattern_Decorator\Pattern_Decorator\obj\Debug\Pattern_Decorator.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\Pattern_Decorator\Pattern_Decorator\obj\Debug\Pattern_Decorator.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\Pattern_Decorator\Pattern_Decorator\obj\Debug\Pattern_Decorator.pdb
