@@ -8,9 +8,10 @@ namespace Pattern_Command_Calculator
 {
     abstract class Command
     {
-        int operand;
-        ArithmeticUnit unit;
-        public abstract int Execute();
-        public abstract int UnExecute();
+        protected int operand;
+        protected ArithmeticUnit unit;
+
+        public abstract void Execute();
+        public abstract void UnExecute();
     }
 }
