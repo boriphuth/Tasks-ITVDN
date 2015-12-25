@@ -1,0 +1,6 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\StatePattern\StatePattern\bin\Debug\StatePattern.exe.config
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\StatePattern\StatePattern\bin\Debug\StatePattern.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\StatePattern\StatePattern\bin\Debug\StatePattern.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\StatePattern\StatePattern\obj\Debug\StatePattern.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\StatePattern\StatePattern\obj\Debug\StatePattern.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\StatePattern\StatePattern\obj\Debug\StatePattern.pdb
