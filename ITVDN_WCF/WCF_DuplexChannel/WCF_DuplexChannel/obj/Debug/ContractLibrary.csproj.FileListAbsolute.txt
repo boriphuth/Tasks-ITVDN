@@ -1,0 +1,4 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\WCF_DuplexChannel\bin\Debug\WCF_DuplexChannel.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\WCF_DuplexChannel\bin\Debug\WCF_DuplexChannel.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\WCF_DuplexChannel\obj\Debug\WCF_DuplexChannel.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\WCF_DuplexChannel\obj\Debug\WCF_DuplexChannel.pdb

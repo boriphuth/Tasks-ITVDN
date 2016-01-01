@@ -1,0 +1,15 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\bin\Debug\Server.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\bin\Debug\Server.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\bin\Debug\WCF_DuplexChannel.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\bin\Debug\WCF_DuplexChannel.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\WindowHost.g.cs
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\App.g.cs
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server_MarkupCompile.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server_MarkupCompile.lref
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\WindowHost.baml
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server.g.resources
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Server\obj\Debug\Server.pdb

@@ -1,0 +1,7 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Client\bin\Debug\Client.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Client\bin\Debug\Client.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Client\bin\Debug\WCF_DuplexChannel.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Client\bin\Debug\WCF_DuplexChannel.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Client\obj\Debug\Client.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\WCF_DuplexChannel\Client\obj\Debug\Client.pdb
