@@ -1,0 +1,10 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\bin\Debug\TDD_Ninjection.exe.config
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\bin\Debug\TDD_Ninjection.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\bin\Debug\TDD_Ninjection.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\bin\Debug\Ninject.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\bin\Debug\nunit.framework.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\bin\Debug\nunit.framework.xml
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\obj\Debug\TDD_Ninjection.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\obj\Debug\TDD_Ninjection.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_Ninjection\TDD_Ninjection\obj\Debug\TDD_Ninjection.csprojResolveAssemblyReference.cache
