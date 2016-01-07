@@ -1,0 +1,9 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\bin\Debug\TestProject.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\bin\Debug\nunit.framework.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\bin\Debug\nunit.framework.xml
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\obj\Debug\TestProject.dll
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\obj\Debug\TestProject.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\bin\Debug\TDD_VideoShop.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TestProject\bin\Debug\TDD_VideoShop.pdb

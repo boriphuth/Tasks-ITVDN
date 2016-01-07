@@ -1,0 +1,5 @@
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TDD_VideoShop\bin\Debug\TDD_VideoShop.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TDD_VideoShop\bin\Debug\TDD_VideoShop.pdb
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TDD_VideoShop\obj\Debug\TDD_VideoShop.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TDD_VideoShop\obj\Debug\TDD_VideoShop.exe
+C:\Users\Вадим\Documents\Visual Studio 2015\Projects\TDD_VideoShop\TDD_VideoShop\obj\Debug\TDD_VideoShop.pdb
