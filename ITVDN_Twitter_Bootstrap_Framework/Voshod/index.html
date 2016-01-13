@@ -2,10 +2,11 @@
 <html>
 <head>
     <title></title>
-    <link href="../Bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
-
+    <link href="Bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+    <script src="Bootstrap/js/jquery-1.11.1.min.js"></script>    <!--Подключение библиотеки jQuery-->
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
     <style>
-        .col-md-12 {
+        /*.col-md-12 {
             background: #dedede;
         }
 
@@ -15,11 +16,11 @@
 
         .col-md-6 {
             background: #fff1b9;
-        }
+        }*/
 
         .imgTop{
-            max-height: 200px;
-            min-width: 100%;            
+            max-height: 150px;
+                       
         }
     </style>
 
@@ -29,7 +30,7 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-offset-3 col-md-9">
                 <form class="form-inline">
                     <div class="form-group">
                         <label for="exampleInputEmail">Email address</label>
@@ -44,8 +45,17 @@
                 </form>
                 </div>
             </div>
+        <br />
         <div class="row">
-            <div class="col-md-12">               
+            <div class="col-md-offset-3 col-md-3">
+                <h1 class="text-info">
+                    <strong>Sport<br /> 
+                            club<br /> 
+                            "Sunrise" </strong>
+
+                </h1>
+            </div>
+            <div class="col-md-6">  
                 <img class="imgTop" src="images/top_right.jpg" alt="Voshod"/>                
             </div>
         </div>
@@ -53,26 +63,58 @@
             <div class="row">
                 <br />
                 <div class="col-md-2">
-                    <img src="images/fitnes.png" alt="fitnes" />
+                   <div class="box" >
+                    <div class="btn-group btn-group-lg">
+                        <button type="button" class="btn dropdown-toggle btn-info" 
+                            data-toggle="dropdown">
+                            Фитнес <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                           
+                            <li><a href="#">Клубные карты</a></li>
+                            <li><a href="#">Дополнительные услуги</a></li>
+                            <li><a href="#">Расписание групповых
+                                      <br />занятий</a></li>
+                            <!--<li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>-->
+                        </ul>
+                   </div>
+                </div>
+                   <!-- <img src="images/fitnes.png" alt="fitnes" />-->
                 </div>
                 <div class="col-md-7">
-                    <p class="lead">Фитнес</p>
+                   <!-- <p class="lead">Фитнес</p>-->
                     <p>
                         Добро пожаловать в мир фитнес клуба - «ВОСХОД», который входит в лучшие фитнес клубы Днепропетровска и богат здоровым разнообразием спортивных тренировок,
                         полноценной командой профессиональных инструкторов, жизнерадостным настроением постоянных клиентов.
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col">
                     <img src="images/Cardio.jpg" alt="fitnes" />
                 </div>
             </div>
             <br />
             <div class="row">
                 <div class="col-md-2">
-                    <img src="images/tennis.png" alt="tennis" />
+                    <div class="box" >
+                    <div class="btn-group btn-group-lg">
+                        <button type="button" class="btn dropdown-toggle btn-success" 
+                            data-toggle="dropdown">
+                            Теннис <span class="caret"></span> 
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Клубные карты</a></li>
+                            <li><a href="#">Программа лояльности</a></li>
+                            <li><a href="#">Дополнительные услуги</a></li>
+                            <!--<li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>-->
+                        </ul>
+                   </div>
+                </div>
+                   
                 </div>
                 <div class="col-md-7">
-                    <p class="lead">Теннис</p>
+                    <!--<p class="lead">Теннис</p>-->
                     <p>
                         Королевский спорт, игра ускользающих ощущений, престижное занятие для успешных людей. В «ВОСХОДЕ» действуют 6 зимних и 9 летних теннисных кортов.
                         Для любителей тенниса – как новичков, так и профессионалов – в клубе созданы наилучшие условия для удобных игр:
