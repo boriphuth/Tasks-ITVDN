@@ -13,9 +13,9 @@
         .col-md-3 {
             background: #ffb4b4;
         }
-
-        .col-md-6 {
-            background: #fff1b9;
+*/
+        /*nav {
+            background: #0094ff;
         }*/
 
         .imgTop{
@@ -26,12 +26,95 @@
 
 	<meta charset="utf-8" />
 </head>
-<body>
+<body style="background-color:black">
     
     <div class="container">
+
         <div class="row">
-            <div class="col-md-offset-3 col-md-9">
-                <form class="form-inline">
+
+            <div class="col-md-12">
+                <nav class="navbar navbar-default navbar-inverse"  role="navigation">
+
+        <!-- Класс "container-fluid" - адаптивный контейнер -->
+
+        <div class="container-fluid">
+
+            <!-- Блок с кнопкой "Brand" и кнопкой для развертывания меню (для мобильных устройств) -->
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    СК Восход</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+
+                    <!-- Набор иконок для кнопки -->
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Набор ссылок навигации, форм и других элементов меню (в мобильном устройстве будет находится в раскрывающеемся списке) -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Фитнес <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Клубные карты</a></li>
+                            <li><a href="#">Расписание занятий</a></li>
+                            
+                        </ul>
+                    </li>
+
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Теннис <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Клубные карты</a></li>
+                            <li><a href="#">Расписание кортов</a></li>
+                        </ul>
+                    </li>
+               
+
+                <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Детский клуб <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Клубные карты</a></li>
+                            <li><a href="#">Расписание занятий</a></li>
+                            
+                        </ul>
+                    </li>
+
+                     </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Поиск">
+                    </div>
+                    <button type="submit" class="btn btn-default">Поиск</button>
+                </form>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="registration.html">Личный кабинет </a></li>
+                   <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>-->
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+               <!-- <form class="form-inline">
                     <div class="form-group">
                         <label for="exampleInputEmail">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email">
@@ -42,12 +125,50 @@
                     </div>
                     <button type="submit" class="btn btn-default">Sign in</button>
                     <a href="registration.html" class="btn btn-default">Registration</a>
-                </form>
+                </form>-->
                 </div>
             </div>
         <br />
         <div class="row">
-            <div class="col-md-offset-3 col-md-3">
+            <div class="col-md-12">
+                <div id="my-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#my-carousel" data-slide-to="1"></li>
+                        <li data-target="#my-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img alt="First slide" src="images/1.jpg">
+                            <div class="carousel-caption">
+                                <h3>Caption heading 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="Second slide" src="images/2.jpg">
+                            <div class="carousel-caption">
+                                <h3>Caption heading 2</h3>
+                                <p>Morbi eget libero quis metus consectetur semper.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="Third slide" src="images/3.jpg">
+                            <div class="carousel-caption">
+                                <h3>Caption heading 3</h3>
+                                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#my-carousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+            <!--<div class="col-md-offset-3 col-md-3">
                 <h1 class="text-info">
                     <strong>Sport<br /> 
                             club<br /> 
@@ -57,7 +178,7 @@
             </div>
             <div class="col-md-6">  
                 <img class="imgTop" src="images/top_right.jpg" alt="Voshod"/>                
-            </div>
+            </div>-->
         </div>
         
             <div class="row">
