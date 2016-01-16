@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <script type="text/javascript">
+        //Требуется: Создать массив размерностью N элементов, 
+        //заполнить его произвольными целыми значениями. 
+        //    Вывести наибольшее значение массива, наименьшее значение массива, 
+        //    общую сумму элементов, среднее арифметическое всех элементов, 
+        //    вывести все нечетные значения. 
+
+        var size = +prompt("Enter array size", "0");
+        var array = Array(size);
+
+        for (var i = 0; i < array.length; i++)
+        {
+            array[i] = i;
+        }
+
+        var start = 0;
+        var maxValue = array[start];
+        var minValue = array[start];
+        var total = 0;
+        var average = 0;
+        var oddArray = Array();
+
+        for (var i = start; i < array.length; i++)
+        {
+            if (maxValue < array[i])
+            {
+                maxValue = array[i];
+            }
+
+            if (minValue > array[i])
+            {
+                minValue = array[i];
+            }
+            if (array[i] % 2 != 0)
+            {
+                oddArray.push(array[i]);
+            }
+
+            total += array[i];
+        }
+
+        document.write("Max = " + maxValue + "<br />");
+        document.write("Min = " + minValue + "<br />");
+        document.write("Total = " + total + "<br />");
+        document.write("Average = " + total / array.length + "<br />");
+        document.write("Odd array = " + oddArray.join(" ") + "<br />");
+    </script>
+</body>
+</html>

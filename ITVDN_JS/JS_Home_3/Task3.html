@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <script type="text/javascript">
+        //Требуется: Создать двумерный массив элементов размерностью 5х5 
+        //и заполнить его произвольными целочисленными значениями.  
+        //    По главной диагонали все числа со знаком (-) заменить на 0, 
+        //    а числа со знаком (+) на число 1. 
+
+        var array = Array(12);
+        for (var i = 0; i < array.length; i++)
+        {
+            array[i] = new Array(12);
+        }
+
+        for (var row = 0; row < array.length; row++)
+        {
+            for (var col = 0; col < array[row].length; col++)
+            {
+                array[row][col] = Math.round(-10 + Math.random() * (10 - (-10)));                   
+            }
+        }
+
+        for (var row = 0; row < array.length; row++)
+        {
+            for (var col = 0; col < array[row].length; col++)
+            {
+                if (row == col)
+                {
+                    if (array[row][col] < 0)
+                    {
+                        array[row][col] = 0;
+                    }
+                    if (array[row][col] > 0)
+                    {
+                        array[row][col] = 1;
+                    }
+                } 
+            }
+        }
+
+        for (var row = 0; row < array.length; row++)
+        {
+            for (var col = 0; col < array[row].length; col++)
+            {
+                document.write(array[row][col] + " |  ");
+            }
+            document.write("<br />");
+        }
+    </script>
+</body>
+</html>
