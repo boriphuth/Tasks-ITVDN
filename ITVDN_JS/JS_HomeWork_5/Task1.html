@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+<!--    Создать объект «Документ», в котором определить свойства 
+    «Заголовок, Тело, Футер, Дата». Создать в объекте вложенный 
+    объект – «Приложение». Создать в объекте «Приложение», вложенные объекты, 
+    «Заголовок, Тело, Футер, Дата». Создать методы для заполнения и отображения документа. -->
+    <script type="text/javascript">
+
+        var attachment = {
+            head: "Head",
+            body: "Body",
+            footer: "Footer",
+            date: "17/01/2016",
+
+            SetAttachment: function (head, body, footer) {
+                this.head = head;
+                this.body = body;
+                this.footer = footer;
+                
+            },
+            PrintAttachment: function myfunction() {
+                document.write(this.head + "<br />");
+                document.write(this.body + "<br />");
+                document.write(this.footer + "<br />");
+                document.write(this.date + "<br />");
+            }
+        };
+
+        var doc = {
+            head: "Head",
+            body: "Body",
+            footer: "Footer",
+            date: "17/01/2016",
+
+            docAttachment: attachment,
+
+            SetDoc: function (head, body, footer) {
+                this.head = head;
+                this.body = body;
+                this.footer = footer;
+
+            },
+            PrintDoc: function myfunction() {
+                document.write(this.head + "<br />");
+                document.write(this.body + "<br />");
+                document.write(this.footer + "<br />");
+                document.write(this.date + "<br />");
+                this.docAttachment.PrintAttachment();
+            }
+        };
+
+        
+
+        doc.SetDoc("Doc head", "Doc Body", "Doc Footer");
+        doc.docAttachment.SetAttachment("Attachment head", "Attachment Body", "Attachment Footer");
+
+        doc.PrintDoc();
+        
+        
+
+    </script>
+    
+</body>
+</html>
