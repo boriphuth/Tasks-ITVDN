@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <p>Разработайте модуль, который будет содержать функцию для получения элементов на</p>
+    <p class="redParagraph" style="color:red">странице с определенным значением в атрибуте с именем class. Пример использование </p>
+    <p>модуля. var arr = MyQuery.FindClass(“redButton”); - возвращает массив элементов</p>
+    <p>с атрибутом class=”redButton” </p>
+
+    <script src="ModuleRedClass.js"></script>
+    <script>
+        
+        var arr = MyQuery.FindClass("redParagraph");
+        for (var i = 0; i < arr.length; i++) {
+            arr[i].style.border = "2px solid blue";
+        }
+        
+    </script>
+</body>
+</html>

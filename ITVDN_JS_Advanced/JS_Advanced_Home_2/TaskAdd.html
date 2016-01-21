@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <p>Paragraph</p>
+    <p>Paragraph</p>
+    <br />
+    <a href="Task1.html">Referance 1</a>
+    <a href="Task1.html">Referance 2</a>
+    <a href="Task1.html">Referance 3</a>
+    <br />
+    <div id="test_div">
+
+    </div>
+    <br />
+    <button id="selPar">выбрать все параграфы</button>
+    <button id="selRef">выбрать все ссылки</button>
+    <button id="selDiv">выбрать DIV</button>
+
+    <script type="text/javascript">
+        //Создайте страницу, разместите на странице в произвольном порядке несколько 
+        //параграфов, ссылок и элемент Div c id=test_div. Разместите на странице три 
+        //кнопки – «выбрать все параграфы», «выбрать все ссылки», «выбрать DIV». При 
+        //нажатии на каждую кнопку должна запускаться функция обработчик, которая 
+        //добавит рамку определенного цвета на соответствующие элементы. Сделайте 
+        //код JS ненавязчивым. 
+
+        document.getElementById("selPar").onclick = selectAllParagraphs;
+        document.getElementById("selRef").onclick = selectAllReferences;
+        document.getElementById("selDiv").onclick = selectAllDivs;
+
+        function selectAllParagraphs() {
+            var items = document.getElementsByTagName("p");
+            for (var i = 0; i < items.length; i++) {
+                items[i].style.border = "2px solid red";
+            }
+        }
+
+        function selectAllReferences() {
+            var items = document.getElementsByTagName("a");
+            for (var i = 0; i < items.length; i++) {
+                items[i].style.border = "2px solid green";
+            }
+        }
+    
+        function selectAllDivs() {
+            var items = document.getElementsByTagName("div");
+            for (var i = 0; i < items.length; i++) {
+                items[i].style.border = "2px solid blue";
+                items[i].style.height = "30px";
+            }
+        }
+
+            
+        
+
+    </script>
+</body>
+</html>
