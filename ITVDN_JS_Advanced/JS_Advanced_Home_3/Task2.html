@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    
+    <button id="btn" onclick="GetSum()">Get result</button>
+    <script>
+        //Разработайте страницу, которая будет выводить сумму двух GET параметров
+        //a и b. Например, если на страницу заходят по адресу, page.html?a=100&b=200 
+        //то в теле страницы должно отображаться сообщение «сумма 300» 
+
+        function getQueryString() {
+            var args = {};
+            var query = location.search.substring(1);
+            var pairs = query.split("&");
+
+            for (var i = 0; i < pairs.length; i++) {
+
+                var pos = pairs[i].indexOf('=');            
+                if (pos == -1) {                            
+                    continue;
+                }
+
+                var argname = pairs[i].substring(0, pos);   
+                var value = pairs[i].substring(pos + 1);    
+
+                args[argname] = value;                      
+
+            }
+
+            return args;
+        }
+        
+        function GetSum() {
+            var result;
+            var args = getQueryString();
+            result = 1 * args.a + 1 * args.b;
+            document.write("sum = " + result);
+        }
+
+
+
+    </script>
+</body>
+</html>

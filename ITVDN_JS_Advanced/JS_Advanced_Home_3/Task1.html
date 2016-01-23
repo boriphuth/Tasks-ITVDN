@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <p><span id="my_timer" style="color: #f00; font-size: 150%; font-weight: bold;">00:00:00</span></p>
+    <button id="start">Старт</button>
+    <button id="stop">Стоп</button>
+    <button id="reset">Сбросить</button>
+    <script>
+        //Разработайте программу секундомер. Секундомер должен иметь три кнопки 
+        //«Старт», «Стоп», «Сбросить». Секундомер должен выводить время в 
+        //формате 00:00:00. 
+
+        window.onload = function() {
+            document.getElementById("start").onclick = startTimer;
+            document.getElementById("stop").onclick = stopTimer;
+            document.getElementById("reset").onclick = resetTimer;
+        }
+        var intervalHandler;
+
+        function stopTimer() {
+            clearInterval(intervalHandler);
+        }
+
+        function resetTimer() {
+            stopTimer();
+            document.getElementById("my_timer").innerHTML = "00:00:00";
+        }
+
+        function startTimer() {
+            if (intervalHandler != null) {
+                stopTimer();
+            }
+            var my_timer = document.getElementById("my_timer");
+            var time = my_timer.innerHTML;
+            var arr = time.split(":");
+            var h = arr[0];
+            var m = arr[1];
+            var s = arr[2];
+
+            ++s;
+            if (s == 60) {
+                s = 0;
+                ++m;
+                if (m == 60) {
+                    m = 0;
+                    ++h;
+                    if (h == 25) {
+                        alert("Full");
+                        return;
+                    }
+                    if (m < 10) h = "0" + h;
+                }
+                if (m < 10) m = "0" + m;                
+            }
+            if (s < 10) s = "0" + s;            
+
+            document.getElementById("my_timer").innerHTML = h + ":" + m + ":" + s;
+            intervalHandler = setTimeout(startTimer, 1000);
+        }
+    </script>
+</body>
+</html>
