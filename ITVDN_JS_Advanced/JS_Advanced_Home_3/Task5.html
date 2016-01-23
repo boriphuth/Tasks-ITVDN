@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div id="p" style="position: relative; font-size:large;">Some text</div>
+    <input type="text" id="txt" />
+    <button id="btn">ok</button>
+    <script>
+        //Создайте бегущую строку. Пользователь вводит текст в поле ввода и нажимает на кнопку. 
+        //    После чего в элементе страниц, отображается бегущая строка с введенным текстом. 
+
+        var txt;
+        var p;
+        var pos = 0;
+        var right = window.screen.width;
+        window.onload = function() {
+            document.getElementById("btn").onclick = setText;
+            txt = document.getElementById("txt");
+            p = document.getElementById("p");
+        }
+
+        
+        
+
+        function setText() {
+            p.innerText = txt.value;
+            setInterval(animate, 10);
+        }
+        function animate() {
+            p.style.left = pos + "px";
+            pos = --pos;
+            if (pos < 0) {
+                pos = right;
+            }
+            
+        }
+    </script>
+</body>
+</html>
