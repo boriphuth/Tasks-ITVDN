@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div id="tablo" style="background-color:aquamarine; width:180px;">Угадай число от 1 до 100</div>
+    <input type="text" id="txt" />
+    <button id="btn">ok</button>
+    <script>
+        //Разработайте игру «Угадай значение». Страница загадывает число от 1 до 100. 
+        //Пользователь в поле ввода вводит значение пытаясь угадать загаданное число. 
+        //    Если пользователь не угадывает значение страница выводит сообщение с 
+        //    текстом «загаданное значение больше введенного вами» или «загаданное 
+        //    значение меньше введенного вами». Подумайте как можно применить DHTML 
+        //    в таком  приложении. 
+        var tablo;
+        var numberId;
+        var btn;
+        var txt;
+        var tryId = 0;
+
+        window.onload = function() {
+            tablo = document.getElementById("tablo");
+            btn = document.getElementById("btn").onclick = setData;
+            numberId = Math.floor((Math.random() * 100) + 1);
+            txt = document.getElementById("txt");
+        }
+
+        function setData() {
+            tablo.style.color = "white";
+            ++tryId;
+            var res = txt.value * 1;
+            if (numberId == res) {
+                tablo.style.backgroundColor = "green";
+                tablo.innerText = "Вы угадали число: " + numberId + " с " + tryId +  " попытки";
+            }
+            if (numberId < res) {
+                tablo.style.backgroundColor = "blue";
+                tablo.innerText = "Попытка № " + tryId + " загаданное значение меньше введенного вами";
+            }
+            if (numberId > res) {
+                tablo.innerText = "Попытка № " + tryId + " загаданное значение больше введенного вами";
+                tablo.style.backgroundColor = "red";
+            }
+            
+        }
+        
+    </script>
+</body>
+</html>
