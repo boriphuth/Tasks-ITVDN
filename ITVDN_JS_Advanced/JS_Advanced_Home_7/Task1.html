@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div style="position:absolute; width:200px; background-color:coral
+    ">
+    <form >
+        <label>Select pizza size:</label>
+        <br />
+        <select id="select">
+            <optgroup label="Size:">
+                <option value="large">large</option>
+                <option value="middle">middle</option>
+                <option value="small">small</option>
+            </optgroup>
+            
+        </select>
+        <br />
+        <br />
+        <label>Select pizza ingridients</label>
+        <br />
+        <input type="checkbox" id="mash" name="checbox1" /> Грибы
+        <br />
+        <input type="checkbox"id="tomat" name="checbox2" /> Помидоры
+        <br />
+        <input type="checkbox" id="cheese" name="checbox3" /> Сыр
+        <br />
+        <input type="checkbox"  id="oliv" name="checbox4" /> Оливки
+        <br />
+        <input type="checkbox" id="becon" name="checbox5" /> Бекон
+        <br />
+        <br />
+        <label id="total">Total:</label>
+        <br />
+    </form>
+    </div>
+    <script>
+        /*
+        Разработайте страницу заказа пиццы.  
+Требования к странице: 
+Можно заказать три вида пиццы - маленькая, большая, средняя. 
+Можно самостоятельно выбрать ингредиенты к пицце - грибы, бекон, помидоры, сыр, оливки. 
+На странице должна вводиться информация о покупателе (его телефон и адрес доставки). 
+ 
+Подумайте, какие данные следует проверять на странице, реализуйте эту проверку. 
+Также реализуйте подсчет стоимости пиццы, при выборе размеров и ингредиентов, 
+автоматические должна пересчитываться сумма заказа. Цены на размер пиццы и 
+отдельные ингредиенты выберите произвольно. 
+ */
+        
+        var price = {
+            mash: 10,
+            tomat: 20,
+            oliv: 30,
+            becon: 40,
+            cheese: 50
+        }
+
+        var small = 0.5;
+        var medium = 1;
+        var large = 1.5;
+
+        var select;
+        var mash;
+        var tomat;
+        var cheese;
+        var oliv;
+        var becon;
+
+        var total = {
+            size: 0,
+            ingridients: 0,
+            
+        }
+
+        var lblTotal;
+
+        window.onload = function() {
+            select = document.getElementById("select");
+            lblTotal = document.getElementById("total");
+            mash = document.getElementById("mash");
+            tomat = document.getElementById("tomat");
+            oliv = document.getElementById("oliv");
+            becon = document.getElementById("becon");
+            cheese = document.getElementById("cheese");
+
+            var array = [
+                    mash,
+                    tomat,
+                    oliv,
+                    becon,
+                    cheese
+            ];
+
+            var getIngr = function() {                
+                total.ingridients = 0;
+
+                for (var i = 0; i < array.length; i++) {
+                    if (array[i].checked) {
+                        total.ingridients += price[array[i].id];
+                    }
+                }
+
+                return total.ingridients * getSize();
+            }
+            
+            
+
+            
+            var getSize = function () {
+                if (select.options[select.selectedIndex].value == "large") {
+                    total.size = large;
+                }
+                if (select.options[select.selectedIndex].value == "middle") {
+                    total.size = medium;
+                }
+                if (select.options[select.selectedIndex].value == "small") {
+                    total.size = small;
+                }
+                
+                return total.size;
+
+            }
+
+            
+
+             function showTotal() {
+                lblTotal.innerText = "Total price: " + getIngr();
+             }
+
+            // subscribe
+            select.onchange = showTotal;
+
+            for (var i = 0; i < array.length; i++) {
+                array[i].onchange = showTotal;
+            }
+            // update info
+            select.onchange();
+            
+        }
+    </script>
+</body>
+</html>
