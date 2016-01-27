@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <p id="p">Создайте страницу, которую пользователь сможет персонализировать. На странице 
+        должен находиться выпадающий список с названиями цветов и поле ввода, в которое
+        можно будет ввести только целочисленное значение. При нажатии на кнопку сохранить, 
+        цвет выбранный в выпадающем списке должен быть присвоен фону странице, а целочисленное 
+        значение из поля ввода, должно использоваться для изменения размера шрифта на странице. 
+        Выбранные настройки должны сохраниться в cookie набор и при повторном заходе пользователя 
+        на страницу, настройки должны восстановиться.</p>
+    <form>
+        <label>Select color</label>
+        <br />
+        <select id="select">
+            <option value="red">red</option>
+            <option value="green">green</option>
+        </select>
+        <input type="text" id="txt" />
+        <button id="saveButton">Save settings</button>
+    </form>
+    <script>
+        /*Создайте страницу, которую пользователь сможет персонализировать. На странице 
+        должен находиться выпадающий список с названиями цветов и поле ввода, в которое
+        можно будет ввести только целочисленное значение. При нажатии на кнопку сохранить, 
+        цвет выбранный в выпадающем списке должен быть присвоен фону странице, а целочисленное 
+        значение из поля ввода, должно использоваться для изменения размера шрифта на странице. 
+        Выбранные настройки должны сохраниться в cookie набор и при повторном заходе пользователя 
+        на страницу, настройки должны восстановиться.  */
+        window.addEventListener("load", function () {
+
+            var savedColor = findCookieValue("font-color");
+            var savedSize = findCookieValue("font-size");
+            if (savedColor && savedSize) {
+                document.getElementById("p").style.color = savedColor;
+                document.getElementById("p").style.fontSize = savedSize;
+            }
+
+
+            document.getElementById("saveButton").addEventListener("click", function () {
+                var selectedColor = getSelectedId("select");
+                document.cookie = "font-color=" + encodeURIComponent(selectedColor) + ";max-age=" + (60 * 60 * 24);
+                document.getElementById("p").style.color = selectedColor;
+
+                var selectedSize = getSNumberId("txt");
+                document.cookie = "font-size=" + encodeURIComponent(selectedSize) + ";max-age=" + (60 * 60 * 24);
+                document.getElementById("p").style.fontSize = selectedSize;
+            });
+
+
+            function getSelectedId(id) {
+                var select = document.getElementById(id);
+
+                return select.options[select.selectedIndex].value;
+            }
+            function getSNumberId(id) {
+                var select = document.getElementById(id);
+                return select.value + "px";
+            }
+            function findCookieValue(cookieName) {
+                var allcookies = document.cookie;
+                var pos = allcookies.indexOf(cookieName + "=");
+
+                // Если cookie с указанным именем найден, извлечь его значения.
+                if (pos != -1) {
+                    var start = pos + cookieName.length + 1;
+                    var end = allcookies.indexOf(";", start);
+
+                    if (end == -1) end = allcookies.length;
+
+                    var value = allcookies.substring(start, end);
+                    value = decodeURIComponent(value);
+                    return value;
+                }
+            }
+        });
+        
+
+       
+    </script>
+</body>
+</html>
