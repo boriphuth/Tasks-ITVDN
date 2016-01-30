@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <input type="text" id="txt1" />
+    <br />
+    <input type="text" id="txt2" />
+    <br />
+    <button id="btn">Send</button>
+    <br />
+    <p id="output" style="background-color:cornflowerblue; color:white; width:50px"></p>
+    <script>
+        /*Разработайте страницу с двумя полями ввода и кнопкой. Пользователь должен вводить в поля 
+        вводов целочисленный значения, а нажатие по кнопке должно приводить к асинхронному запросу 
+        на сервер. Запрашивать следует обработчик CalcHandler.ashx, который находиться вместе с 
+        примерами в уроке номер 10, обработчик принимает два post параметра с именами ‘a’ и ‘b' 
+        Результат который возвращает обработчик выведите на страницу. */
+        var a = 0;
+        var b = 0;
+
+        var txt1;
+        var txt;
+
+        var btn1;
+
+        window.onload = function () {
+            txt1 = document.getElementById("txt1");
+            txt2 = document.getElementById("txt2");
+            
+            btn = document.getElementById("btn").onclick = function () {
+                a = txt1.value;
+                b = txt2.value;
+
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "CalcHandler.ashx");
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        document.getElementById("output").innerText = xhr.responseText;
+                    }
+                }
+                xhr.send("a=" + a + "&b=" + b);
+            }
+        }
+    </script>
+</body>
+</html>
