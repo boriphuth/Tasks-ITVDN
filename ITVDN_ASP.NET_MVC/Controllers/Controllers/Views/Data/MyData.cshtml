@@ -1,0 +1,12 @@
+﻿@model Controllers.Models.MyData
+
+
+    
+
+    @foreach (var item in Model.GetData())
+    {
+        <ul>
+            <li>@item.Name , @item.Price</li>
+            
+        </ul>
+    }
