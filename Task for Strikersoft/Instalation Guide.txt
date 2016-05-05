@@ -1,0 +1,5 @@
+1. Create database with 'crebas.sql' file.
+2. Add connectionstring with 'name="Strikersoft"' to Web.config.
+3. Start WepAPI.
+4. Use request or start SinglePageAplication('SPA.html').
+5. For test dependencies open DoctorsController.cs in project WebApiStrikersoft and uncomment rows ?26-28.

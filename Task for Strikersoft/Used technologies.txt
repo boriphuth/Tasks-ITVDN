@@ -1,0 +1,6 @@
+1. MS SQLServer
+2. ORM Dapper.
+3. WEB API 2.0
+4. AngularJS.
+5. Bootstrap.
+6. Ninject

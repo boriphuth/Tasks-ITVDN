@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html ng-app="ClinicModule">
+<head>
+    <title></title>
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular.min .js"></script>
+    <link href="scripts/bootstrap-theme.css" rel="stylesheet" />
+    <script src="scripts/bootstrap.min.js"></script>
+    <link href="scripts/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/App.js"></script>
+
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div ng-controller="clinCtrl" class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="well">
+                    <h4>Add new Doctor</h4>
+                    <div class="form-group row">
+                        <label for="actionText">Name:</label>
+                        <input id="actionText" class="form-control"  ng-model="doctor.Name" />
+                    </div>
+
+                    <button class="btn btn-primary btn-block" ng-click="addDoctor(doctor)">Add</button>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <button ng-click="loadDoctors()">Load Doctors</button>
+                <table class="table table-hover table-bordered table-condensed" ">
+                    <tr>
+                        <td>
+                            ID
+                        </td>
+                        <td>
+                            Name
+                        </td>
+                    </tr>
+                    <tr ng-repeat="doctor in doctors">
+                        <td>
+                            {{ doctor.ID }}
+                        </td>
+                        <td>
+                            {{ doctor.Name }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+           
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="well">
+                    <h4>Add new Patient</h4>
+                    <div class="form-group row">
+                        <label for="actionText">Name:</label>
+                        <input id="actionText" class="form-control" ng-model="patient.Name" />
+                    </div>
+                    <div class="form-group row">
+                        <label for="actionText">Age:</label>
+                        <input id="actionText" class="form-control" ng-model="patient.Age" />
+                    </div>
+                    <div class="form-group row">
+                        <label for="actionText">CurrentDoctorID:</label>
+                        <input id="actionText" class="form-control" ng-model="patient.CurrentDoctorID" />
+                    </div>
+                    <button class="btn btn-primary btn-block" ng-click="addPatient(patient)">Add</button>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <button ng-click="loadPatients()">Load Patients</button>
+                <table class="table table-hover table-bordered table-condensed" ">
+                    <tr>
+                        <td>
+                            ID
+                        </td>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Age
+                        </td>
+                        <td>
+                            CurrentDoctorID
+                        </td>
+                    </tr>
+                    <tr ng-repeat="patient in patients">
+                        <td>
+                            {{ patient.ID }}
+                        </td>
+                        <td>
+                            {{ patient.Name }}
+                        </td>
+                        <td>
+                            {{ patient.Age }}
+                        </td>
+                        <td>
+                            {{ patient.CurrentDoctorID }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+           
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button ng-click="loadReport()">Load Report</button>
+                <table class="table table-hover table-bordered table-condensed" ">
+                    <tr>
+                        <td>
+                            PatientName
+                        </td>
+                        <td>
+                            PatientAge
+                        </td>
+                      
+                        <td>
+                            VisitDoctorName
+                        </td>
+                        <td>
+                            Diagnosise
+                        </td>
+                        <td>
+                            VisitDate
+                        </td>
+                    </tr>
+                    <tr ng-repeat="reportItem in report">
+                        <td>
+                            {{ reportItem.PatientName }}
+                        </td>
+                        <td>
+                            {{ reportItem.PatientAge }}
+                        </td>
+                     
+                        <td>
+                            {{ reportItem.VisitDoctorName }}
+                        </td>
+                        <td>
+                            {{ reportItem.Diagnosise }}
+                        </td>
+                        <td>
+                            {{ reportItem.VisitDate }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
